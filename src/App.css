@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.Postcard {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 0px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
